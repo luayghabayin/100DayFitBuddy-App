@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E6E6E6"
+        tools:context=".Arms">
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="363dp"
+            android:layout_height="1001dp"
+            android:layout_marginTop="5dp"
+            android:scaleY="1.9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/armstxt"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/rectangle_12" />
+
+        <ImageView
+            android:id="@+id/armsicon"
+            android:layout_width="176dp"
+            android:layout_height="112dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/group_9arms" />
+
+        <ImageView
+            android:id="@+id/armstxt"
+            android:layout_width="82dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="35dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/armsicon"
+            app:srcCompat="@drawable/arms_text" />
+
+        <ImageView
+            android:id="@+id/armstxt1"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/box"
+            app:srcCompat="@drawable/straight_bar_curls_3_x_12_heavy_last_set_drop_set_20_lbs_to_failure" />
+
+        <ImageView
+            android:id="@+id/armspic1"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/armstxt1"
+            app:srcCompat="@drawable/straight_arm_curl" />
+
+        <ImageView
+            android:id="@+id/armstxt2"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/armspic1"
+            app:srcCompat="@drawable/tricep_push_downs_4_x_15_light_slow_and_controlled" />
+
+        <ImageView
+            android:id="@+id/armspic2"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/armstxt2"
+            app:srcCompat="@drawable/tricep_pushdown" />
+
+        <ImageView
+            android:id="@+id/armstxt3"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/armspic2"
+            app:srcCompat="@drawable/dumbell_hammer_curls_3_x_12_heavy" />
+
+        <ImageView
+            android:id="@+id/armspic3"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/armstxt3"
+            app:srcCompat="@drawable/hammer_curls" />
+
+        <ImageView
+            android:id="@+id/armstxt4"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/armspic3"
+            app:srcCompat="@drawable/skull_crushers_3_x_15_light" />
+
+        <ImageView
+            android:id="@+id/armspic4"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/armstxt4"
+            app:srcCompat="@drawable/seated_dumbbell_curls" />
+
+        <ImageButton
+            android:id="@+id/armsfinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="80dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/group_13" />
+
+        <ImageView
+            android:id="@+id/armspic5"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/armstxt5"
+            app:srcCompat="@drawable/dumbell_extension" />
+
+        <ImageView
+            android:id="@+id/armstxt5"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/armspic4"
+            app:srcCompat="@drawable/overhead_seated_dumbbell_tricep_extensions_3_x_15_light" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

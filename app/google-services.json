@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "911074110246",
+    "project_id": "day-fitbuddy",
+    "storage_bucket": "day-fitbuddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911074110246:android:969edbd01a70d353a82fe7",
+        "android_client_info": {
+          "package_name": "com.example.project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911074110246-adnd4588nup9icqidu44tg2ln2emq505.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSWxVYHJH62BCN6SMRpfS5xfJ4yskV_l4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911074110246-adnd4588nup9icqidu44tg2ln2emq505.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

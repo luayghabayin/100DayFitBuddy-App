@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.fitbuddy.project1.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard" />
+        <action
+            android:id="@+id/action_navigation_home_to_info2"
+            app:destination="@id/info2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.fitbuddy.project1.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_selectRoutine"
+            app:destination="@id/selectRoutine" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_selectRoutineAdvanced"
+            app:destination="@id/selectRoutineAdvanced" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_selectRoutine2"
+            app:destination="@id/selectRoutine" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.fitbuddy.project1.ui.home.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/info2"
+        android:name="com.fitbuddy.project1.ui.home.Info"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" >
+        <action
+            android:id="@+id/action_info2_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectRoutine"
+        android:name="com.fitbuddy.project1.ui.dashboard.SelectRoutine"
+        android:label="fragment_select_routine"
+        tools:layout="@layout/fragment_select_routine" >
+        <action
+            android:id="@+id/action_selectRoutine_to_legs"
+            app:destination="@id/legs" />
+        <action
+            android:id="@+id/action_selectRoutine_to_shoulders"
+            app:destination="@id/shoulders" />
+        <action
+            android:id="@+id/action_selectRoutine_to_arms"
+            app:destination="@id/arms" />
+        <action
+            android:id="@+id/action_selectRoutine_to_chest"
+            app:destination="@id/chest" />
+        <action
+            android:id="@+id/action_selectRoutine_to_back"
+            app:destination="@id/back" />
+    </fragment>
+    <fragment
+        android:id="@+id/chest"
+        android:name="com.fitbuddy.project1.ui.dashboard.Chest"
+        android:label="fragment_chest"
+        tools:layout="@layout/fragment_chest" >
+        <action
+            android:id="@+id/action_chest_to_endPage"
+            app:destination="@id/endPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/legs"
+        android:name="com.fitbuddy.project1.ui.dashboard.Legs"
+        android:label="fragment_legs"
+        tools:layout="@layout/fragment_legs_advanced" >
+        <action
+            android:id="@+id/action_legs_to_endPage"
+            app:destination="@id/endPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoulders"
+        android:name="com.fitbuddy.project1.ui.dashboard.Shoulders"
+        android:label="fragment_shoulders"
+        tools:layout="@layout/fragment_shoulders" >
+        <action
+            android:id="@+id/action_shoulders_to_endPage"
+            app:destination="@id/endPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/arms"
+        android:name="com.fitbuddy.project1.ui.dashboard.Arms"
+        android:label="fragment_arms"
+        tools:layout="@layout/fragment_arms" >
+        <action
+            android:id="@+id/action_arms_to_endPage"
+            app:destination="@id/endPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/endPage"
+        android:name="com.fitbuddy.project1.ui.dashboard.EndPage"
+        android:label="fragment_end_page"
+        tools:layout="@layout/fragment_end_page" />
+    <fragment
+        android:id="@+id/back"
+        android:name="com.fitbuddy.project1.ui.dashboard.Back"
+        android:label="fragment_back"
+        tools:layout="@layout/fragment_back" >
+        <action
+            android:id="@+id/action_back_to_endPage"
+            app:destination="@id/endPage" />
+    </fragment>
+    <activity
+        android:id="@+id/signInActivity"
+        android:name="views.SignInActivity"
+        android:label="SignInActivity" />
+    <fragment
+        android:id="@+id/selectRoutineAdvanced"
+        android:name="com.fitbuddy.project1.ui.dashboard.SelectRoutineAdvanced"
+        android:label="SelectRoutineAdvanced"
+        tools:layout="@layout/fragment_select_routine_advanced">
+        <action
+            android:id="@+id/action_selectRoutineAdvanced_to_armsAdvanced"
+            app:destination="@id/armsAdvanced" />
+        <action
+            android:id="@+id/action_selectRoutineAdvanced_to_backAdvanced"
+            app:destination="@id/backAdvanced" />
+        <action
+            android:id="@+id/action_selectRoutineAdvanced_to_chestAdvanced"
+            app:destination="@id/chestAdvanced" />
+        <action
+            android:id="@+id/action_selectRoutineAdvanced_to_shouldersAdvanced"
+            app:destination="@id/shouldersAdvanced" />
+        <action
+            android:id="@+id/action_selectRoutineAdvanced_to_legsAdvanced"
+            app:destination="@id/legsAdvanced" />
+    </fragment>
+    <fragment
+        android:id="@+id/armsAdvanced"
+        android:name="com.fitbuddy.project1.ui.dashboard.ArmsAdvanced"
+        android:label="ArmsAdvanced"
+        tools:layout="@layout/fragment_arms_advanced">
+        <action
+            android:id="@+id/action_armsAdvanced_to_endPage"
+            app:destination="@id/endPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/backAdvanced"
+        android:name="com.fitbuddy.project1.ui.dashboard.BackAdvanced"
+        android:label="BackAdvanced"
+        tools:layout="@layout/fragment_back_advanced">
+        <action
+            android:id="@+id/action_backAdvanced_to_endPage"
+            app:destination="@id/endPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/chestAdvanced"
+        android:name="com.fitbuddy.project1.ui.dashboard.ChestAdvanced"
+        android:label="ChestAdvanced"
+        tools:layout="@layout/fragment_chest_advanced">
+        <action
+            android:id="@+id/action_chestAdvanced_to_endPage"
+            app:destination="@id/endPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/shouldersAdvanced"
+        android:name="com.fitbuddy.project1.ui.dashboard.ShouldersAdvanced"
+        android:label="ShouldersAdvanced"
+        tools:layout="@layout/fragment_shoulders_advanced">
+        <action
+            android:id="@+id/action_shouldersAdvanced_to_endPage"
+            app:destination="@id/endPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/legsAdvanced"
+        android:name="com.fitbuddy.project1.ui.dashboard.LegsAdvanced"
+        android:label="LegsAdvanced"
+        tools:layout="@layout/fragment_legs_advanced">
+        <action
+            android:id="@+id/action_legsAdvanced_to_endPage"
+            app:destination="@id/endPage" />
+    </fragment>
+</navigation>

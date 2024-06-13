@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E6E6E6"
+        tools:context=".Legs">
+
+        <ImageView
+            android:id="@+id/box2"
+            android:layout_width="363dp"
+            android:layout_height="1400dp"
+            android:layout_marginTop="20dp"
+            android:scaleY="2.7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legtxt"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/rectangle_12" />
+
+        <ImageView
+            android:id="@+id/legicon"
+            android:layout_width="176dp"
+            android:layout_height="112dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/group_9legs" />
+
+        <ImageView
+            android:id="@+id/legtxt"
+            android:layout_width="82dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legicon"
+            app:srcCompat="@drawable/legs_text" />
+
+        <ImageView
+            android:id="@+id/legtxt1"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/box2"
+            app:srcCompat="@drawable/warmup_on_bike_3_mins" />
+
+        <ImageView
+            android:id="@+id/legimg"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legtxt1"
+            app:srcCompat="@drawable/warmup_bike" />
+
+        <ImageView
+            android:id="@+id/legtxt2"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legimg"
+            app:srcCompat="@drawable/hack_squat_3_x_20_failure" />
+
+        <ImageView
+            android:id="@+id/legimg1"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legtxt2"
+            app:srcCompat="@drawable/hack_squat" />
+
+        <ImageView
+            android:id="@+id/legtxt3"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legimg1"
+            app:srcCompat="@drawable/hamstring_curls_3_x_15_light_and_controlled" />
+
+        <ImageView
+            android:id="@+id/legimg2"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legtxt3"
+            app:srcCompat="@drawable/hamstring_curls" />
+
+        <ImageView
+            android:id="@+id/legtxt4"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legimg2"
+            app:srcCompat="@drawable/quad_extensions_3_x_15_light_and_controlled" />
+
+        <ImageView
+            android:id="@+id/legimg3"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legtxt4"
+            app:srcCompat="@drawable/quad_extensions" />
+
+        <ImageView
+            android:id="@+id/legtxt5"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:scaleX="1.4"
+            android:scaleY="1.4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legimg3"
+            app:srcCompat="@drawable/barbell_squat_4_x_10_heavy" />
+
+        <ImageView
+            android:id="@+id/legimg4"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legtxt5"
+            app:srcCompat="@drawable/romanaian" />
+
+        <ImageView
+            android:id="@+id/legtxt6"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:scaleX="1.4"
+            android:scaleY="1.4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legimg4"
+            app:srcCompat="@drawable/romanian_deadlifts_4_x_15_light" />
+
+        <ImageView
+            android:id="@+id/legimg5"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legtxt6"
+            app:srcCompat="@drawable/barbell_squat" />
+
+        <ImageView
+            android:id="@+id/legtxt7"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:scaleX="1.4"
+            android:scaleY="1.4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legimg5"
+            app:srcCompat="@drawable/calf_raises_4_x_20_light_and_controlled" />
+
+        <ImageView
+            android:id="@+id/legimg6"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legtxt7"
+            app:srcCompat="@drawable/calf_rasies" />
+
+        <ImageButton
+            android:id="@+id/legsfinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="140dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/group_13" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
